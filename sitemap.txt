@@ -1,0 +1,7 @@
+http://education.launchcode.org/coding-prep/about/index.html
+http://education.launchcode.org/coding-prep/index.html
+http://education.launchcode.org/coding-prep/issues/index.html
+http://education.launchcode.org/coding-prep/modules/file-management/index.html
+http://education.launchcode.org/coding-prep/modules/index.html
+http://education.launchcode.org/coding-prep/resources/index.html
+http://education.launchcode.org/coding-prep/sitemap.html
