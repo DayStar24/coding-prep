@@ -1,0 +1,39 @@
+template:
+    url: https://github.com/LaunchCodeEducation/Template-Light
+    # directory: ../../../../Template-Light
+
+# Base URL of the published website
+baseUrl: http://education.launchcode.org/coding-prep
+
+
+# Used to link to the GitHub project
+github:
+    user: LaunchCodeEducation
+    repo: coding-prep
+
+metaTitle: LC101
+siteTitle: 'Unit 0: Coding Prep'
+
+# Google Custom Search Engine ID
+cseId: 014657181352409571810:cooiaspqoq4
+
+# Google Analytics ID
+gaId: UA-78748330-7
+
+homeBg: https://launchcode.org/assets/cover_banner_blue-8152795f6794e4bbb9fae2a63ad5bb01.jpg
+
+# The left menu bar
+menu:
+    items:
+        modules:
+            text: Modules
+            relativeUrl: modules/
+        resources:
+            text: Resources
+            relativeUrl: resources/
+        about:
+            text: About This Unit
+            relativeUrl: about/
+        issues:
+            text: Reporting Issues
+            relativeUrl: issues/
