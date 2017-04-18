@@ -5,7 +5,9 @@ currentMenu: modules
 
 ## Introduction  
 
-Put some introductory material here
+Now we're ready to start learning the command line! But before we begin, let's download Git. Git is a version control system that we will be using in the Git and Markdown module that follows this module. It's important for Windows users, especially, to download Git now because you'll be using Git Bash for your command line practice.  
+
+Find your operating system below and click the associated link to go to a site where you'll be able to download Git.  
 
 ### For Windows:  
 
@@ -21,4 +23,4 @@ Put some introductory material here
 
 ## Additional help  
 
-If you need additional instruction on installing git, please check out this [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/install-git)   
+If you need additional instructions on installing Git, please check out this [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/install-git).   
