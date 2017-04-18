@@ -15,18 +15,17 @@ In this lesson we will learn how to identify different file types by their exten
 <div class="youtube-wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/k-EID5_2D9U?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 ## Review  
+**Question 1:**  
+What type of file does the ".doc" or ".docx" extension indicate?  
 
-```nohighlight
-1. What type of file does the ".doc" or ".docx" extension indicate?  
+**Question 2:**  
+What type of file does the ".txt" extension indicate?  
 
-2. What type of file does the ".txt" extension indicate?  
+**Question 3:**  
+What are three file extensions used for image files?  
 
-3. What are three file extensions used for image files?  
-
-4. What extension does an executable file typically have?  
-
-Note: this last question may require a google search!
-```
+**Question 4:**  
+What is the most common extension for an executable file?  
 
 [Find Review Answers Here](../../ANSWERS.md)
 
