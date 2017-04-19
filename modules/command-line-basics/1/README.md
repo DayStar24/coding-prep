@@ -24,3 +24,5 @@ Find your operating system below and click the associated link to go to a site w
 ## Additional help  
 
 If you need additional instructions on installing Git, please check out this [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/install-git).   
+
+[Back to Command Line Lesson Menu](../)
