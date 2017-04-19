@@ -15,4 +15,6 @@ Learn what the difference is between copying and moving files, when to use each 
 2. Copy a file into Subfolder. Then delete the copy of the file (but NOT the original).
 3. Create a new Word or text file named "Hello" and save it to Subfolder.
 4. Create another new Word or text file named "HelloAgain" and save it to Subfolder.
-5. Copy all files in Subfolder into FilePractice using Ctrl + A, Ctrl + C, and Ctrl + V.
+5. Copy all files in Subfolder into FilePractice using Ctrl + A, Ctrl + C, and Ctrl + V.  
+
+[Back to File Management Lesson Menu](../)

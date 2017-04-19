@@ -30,4 +30,9 @@ CC
 Convert this binary number into hexadecimal notation:  
 00111111  
 
-[Find Review Answers Here](../../ANSWERS.md)
+[Find Review Answers Here](../../ANSWERS.md)  
+
+## Congratulations!  
+You've completed this module and gained math skills that will make your coding learning journey easier! Now you are ready to get up close and personal with your computer via the command line!  
+
+[Start Command Line Basics Module](../../command-line-basics/)

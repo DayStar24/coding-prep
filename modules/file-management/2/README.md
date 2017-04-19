@@ -16,4 +16,6 @@ Learn how to display and organize your files and folders so that it is easy for 
 3. Change the sorting option by clicking on the "Date Modified" header. Then change it back to sorting by "Name".
 4. Choose a file and rename it. Then rename the file back to what it was.
 5. Make a new folder and name it, "FilePractice". Then make a subfolder in it and name it, "Subfolder".
-6. Practice selecting multiple files by using the Command key on Mac or the Control key on Windows. Then do the same using the shift key.
+6. Practice selecting multiple files by using the Command key on Mac or the Control key on Windows. Then do the same using the shift key.  
+
+[Back to File Management Lesson Menu](../)

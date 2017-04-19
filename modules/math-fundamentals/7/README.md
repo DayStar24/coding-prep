@@ -19,4 +19,6 @@ Aidan received the following scores on his Chemistry tests: 80, 90, 70, 100, 70,
 **Question 3:**   
 Sally has an average exam score of 87 based on 3 Algebra exams taken so far. What score would Sally need to get on her next Algebra exam to bring her average score up to 90?  
 
-[Find Review Answers Here](../../ANSWERS.md)
+[Find Review Answers Here](../../ANSWERS.md)  
+
+[Back to Math Fundamentals Lesson Menu](../)

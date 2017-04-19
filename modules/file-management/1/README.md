@@ -27,5 +27,7 @@ What are three file extensions used for image files?
 **Question 4:**  
 What is the most common extension for an executable file?  
 
-[Find Review Answers Here](../../ANSWERS.md)
+[Find Review Answers Here](../../ANSWERS.md)  
+
+[Back to File Management Lesson Menu](../)
 

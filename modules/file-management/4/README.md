@@ -13,4 +13,9 @@ As a programmer, you will frequently have to create and use zip files. When you 
 
 1. Create a zip (compressed) file of your FilePractice folder.
 2. Email this zip file to yourself.
-3. Download and extract/open this zip file. Then verify that its contents are the same as your original FilePractice folder.
+3. Download and extract/open this zip file. Then verify that its contents are the same as your original FilePractice folder.  
+
+## Congratulations!  
+You've completed this module and learned some important file management skills! Now it's time to brush up your math skills by reviewing the concepts that are pertinent to programming!  
+
+[Start Math Fundamentals Module](../../math-fundamentals/)
