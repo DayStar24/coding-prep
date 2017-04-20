@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Markdown Cheatsheet :: Unit 0: Coding Prep</title>
+
+        <link rel="stylesheet" href="http://education.launchcode.org/coding-prep/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/coding-prep/css/highlight.launchcode.css">
+        <link rel="stylesheet" href="http://education.launchcode.org/coding-prep/css/main.css">
+        <link rel="stylesheet" href="https://djwbyvgln9kts.cloudfront.net/launch_ed_style/custom.css">
+    </head>
+    <body id='page-markdown-cheatsheet'>
+
+        <header class="navbar navbar-default navbar-fixed-top">
+
+            <ul class="nav navbar-nav">
+
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>
+                        <ul class="dropdown-menu">
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/coding-prep/modules/">
+                                        Modules
+                                    </a>
+                                </li>
+                                                            <li class="active lc-button">
+                                    <a href="http://education.launchcode.org/coding-prep/resources/">
+                                        Resources
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/coding-prep/about/">
+                                        About This Unit
+                                    </a>
+                                </li>
+                                                            <li class=" lc-button">
+                                    <a href="http://education.launchcode.org/coding-prep/issues/">
+                                        Reporting Issues
+                                    </a>
+                                </li>
+                                                        <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch">Search This Site</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+            </ul>
+
+            <div>
+                <a class="navbar-brand site-title navbar-center" href="http://education.launchcode.org/coding-prep/">
+                    <h1>Unit 0: Coding Prep</h1>
+                </a>
+            </div>
+
+            <div class="nav navbar-nav navbar-right">
+                <a class="navbar-brand dabomb" href="http://education.launchcode.org/coding-prep/"></a>
+            </div>
+
+        </header>
+
+        <!-- Search Modal -->
+        <div id="modalSearch" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title">Search Unit 0: Coding Prep</h4>
+                </div>
+                <div class="modal-body">
+                    <script>
+                      (function() {
+                        var cx = "014657181352409571810:cooiaspqoq4";
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                      })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+           </div>
+        </div>
+
+        <main class="container-fluid">
+            <div class="row">
+
+                <section id="content" class="col-sm-offset-2 col-sm-8">
+                                        <h1>Markdown Cheatsheet</h1>
+                    <h2 id="basic-markdown-syntax">Basic Markdown Syntax</h2>
+<p>To demonstrate the various effects of Markdown syntax, we'll first see the code as it appears in a Markdown document (in the shaded box), and then how the text looks when it is rendered into HTML.  </p>
+<h3 id="italics">Italics:</h3>
+<pre><code class="language-nohighlight">_These underscores will italicize this statement_
+*These single asterisks will also italicize this statement*</code></pre>
+<p><em>These underscores will italicize this statement</em><br />
+<em>These single asterisks will also italicize this statement</em>  </p>
+<h3 id="bold">Bold:</h3>
+<pre><code class="language-nohighlight">**These two asterisks will make this statement bold** </code></pre>
+<p><strong>These two asterisks will make this statement bold</strong>   </p>
+<h3 id="headers">Headers:</h3>
+<pre><code class="language-nohighlight">Hint: the level of a header is equal to the number of hash marks before it  
+
+# Header One
+## Header Two
+### Header Three
+#### Header Four
+##### Header Five
+###### Header Six</code></pre>
+<h1 id="header-one">Header One</h1>
+<h2 id="header-two">Header Two</h2>
+<h3 id="header-three">Header Three</h3>
+<h4 id="header-four">Header Four</h4>
+<h5 id="header-five">Header Five</h5>
+<h6 id="header-six">Header Six</h6>
+<h3 id="links-without-text">Links without Text:</h3>
+<pre><code class="language-nohighlight">&lt;http://google.com&gt;  </code></pre>
+<p><a href="http://google.com" target="_blank">http://google.com</a>  </p>
+<h3 id="inline-links">Inline Links:</h3>
+<pre><code class="language-nohighlight">[Text you want to be hyperlinked](google.com)</code></pre>
+<p><a href="google.com">Text you want to be hyperlinked</a>  </p>
+<h3 id="reference-links">Reference Links:</h3>
+<pre><code class="language-nohighlight">Here's [a link to something else][another place].
+Here's [yet another link][another-link].
+And now back to [the first link][another place].
+[another place]: www.github.com
+[another-link]: www.google.com</code></pre>
+<p>Here's <a href="www.github.com">a link to something else</a>.<br />
+Here's <a href="www.google.com">yet another link</a>.<br />
+And now back to <a href="www.github.com">the first link</a>.  </p>
+<h3 id="inline-images">Inline Images:</h3>
+<pre><code class="language-nohighlight">![Cute Cat](http://www.cutestpaw.com/wp-content/uploads/2011/11/cute-cat.jpg)</code></pre>
+<p><img src="http://www.cutestpaw.com/wp-content/uploads/2011/11/cute-cat.jpg" alt="Cute Cat" />  </p>
+<h3 id="reference-images">Reference Images:</h3>
+<pre><code class="language-nohighlight">![Cute Cat][Everyone Loves Kittens]
+[Everyone Loves Kittens]: http://www.cutestpaw.com/wp-content/uploads/2011/11/cute-cat.jpg</code></pre>
+<p><img src="http://www.cutestpaw.com/wp-content/uploads/2011/11/cute-cat.jpg" alt="Cute Cat" />  </p>
+<h3 id="blockquotes">Blockquotes:</h3>
+<pre><code class="language-nohighlight">&gt; "Stuff you want in the blockquote."</code></pre>
+<blockquote>
+<p>&quot;Stuff you want in the blockquote.&quot;  </p>
+</blockquote>
+<h3 id="multi-line-blockquotes">Multi-Line Blockquotes:</h3>
+<pre><code class="language-nohighlight">&gt; His words seemed to have struck some deep chord in his own nature. Had he spoken
+of himself, of himself as he was or wished to be? Stephen watched his face for some
+moments in silence. A cold sadness was there. He had spoken of himself, of his own
+loneliness which he feared.
+&gt;
+&gt; —Of whom are you speaking? Stephen asked at length.
+&gt;
+&gt; Cranly did not answer.</code></pre>
+<blockquote>
+<p>His words seemed to have struck some deep chord in his own nature. Had he spoken
+of himself, of himself as he was or wished to be? Stephen watched his face for some
+moments in silence. A cold sadness was there. He had spoken of himself, of his own
+loneliness which he feared.</p>
+<p>—Of whom are you speaking? Stephen asked at length.</p>
+<p>Cranly did not answer.  </p>
+</blockquote>
+<h3 id="unordered-list">Unordered List:</h3>
+<pre><code class="language-nohighlight">Note: the space b/w the * and the list item is important! 
+So is each item being on new line!
+
+* One list item
+* Another list item
+* Yet another list item</code></pre>
+<ul>
+<li>One list item  </li>
+<li>Another list item  </li>
+<li>Yet another list item  </li>
+</ul>
+<h3 id="ordered-list">Ordered List:</h3>
+<pre><code class="language-nohighlight">Again: the space b/w the number and the list item is important! 
+So is each item being on new line!
+
+1. First list item
+2. Second list item
+3. Third list item</code></pre>
+<ol>
+<li>First list item  </li>
+<li>Second list item  </li>
+<li>Third list item  </li>
+</ol>
+<h3 id="nested-unordered-list">Nested Unordered List:</h3>
+<pre><code class="language-nohighlight">Note: indent each inner list item by one space more than its outer list.
+
+* Tintin
+ * A reporter
+ * Has poofy orange hair
+ * Friends with the world's most awesome dog
+* Haddock
+ * A sea captain
+ * Has a fantastic beard
+ * Loves whiskey</code></pre>
+<ul>
+<li>Tintin
+<ul>
+<li>A reporter</li>
+<li>Has poofy orange hair</li>
+<li>Friends with the world's most awesome dog</li>
+</ul></li>
+<li>Haddock
+<ul>
+<li>A sea captain</li>
+<li>Has a fantastic beard</li>
+<li>Loves whiskey  </li>
+</ul></li>
+</ul>
+<h3 id="lists-with-paragraph-text-or-other-non-list-text">Lists With Paragraph Text (or other non-list text):</h3>
+<pre><code class="language-nohighlight">Note: extra line is important, and indent at least one space.  
+
+1. Crack three eggs over a bowl.
+
+ Now, crack the eggs in such a way that you don't make a mess.
+
+ If you _do_ make a mess, use a towel to clean it up!
+
+2. Pour a gallon of milk into the bowl.
+
+ Don't be messy, but if you are, clean it up!</code></pre>
+<ol>
+<li>
+<p>Crack three eggs over a bowl.</p>
+<p>Now, crack the eggs in such a way that you don't make a mess.</p>
+<p>If you <em>do</em> make a mess, use a towel to clean it up!</p>
+</li>
+<li>
+<p>Pour a gallon of milk into the bowl.</p>
+<p>Don't be messy, but if you are, clean it up!  </p>
+</li>
+</ol>
+<h3 id="paragraphs">Paragraphs:</h3>
+<pre><code class="language-nohighlight">Create new line by adding 2 spaces above the new line.
+Dots below represent where the two spaces would be. 
+
+Do I contradict myself?··
+Very well then I contradict myself,··
+(I am large, I contain multitudes.)</code></pre>
+<p>Do I contradict myself?<br />
+Very well then I contradict myself,<br />
+(I am large, I contain multitudes.)  </p>
+<h3 id="code-blocks">Code Blocks:</h3>
+<pre><code class="language-nohighlight">Create by using 1 tab, or 4 spaces, for the code block.
+Additional tab or 4 spaces for indented code lines within that.
+Or surround the entire block with opening and closing triple backtics ```
+
+    tell application "Foo"
+        beep
+    end tell</code></pre>
+<pre><code>tell application "Foo"
+    beep
+end tell  </code></pre>
+<h3 id="inline-code">Inline Code:</h3>
+<pre><code class="language-nohighlight">`print("This is a piece of code. Notice the single backticks.")`</code></pre>
+<p><code>print("This is a piece of code. Notice the single backticks.")</code>  </p>
+<h3 id="definition-list">Definition List:</h3>
+<pre><code class="language-nohighlight">Term
+  : definition
+
+Complex term
+  : first definition
+
+  : second definition</code></pre>
+<dl>
+<dt>Term</dt>
+<dd>definition</dd>
+<dt>Complex term</dt>
+<dd>first definition</dd>
+<dd><p>second definition</p></dd>
+</dl>
+<h3 id="horizontal-rules">Horizontal Rules:</h3>
+<pre><code class="language-nohighlight">Note: need a blank line above asterisks/dashes to render a solid line.  
+
+*******
+or
+
+------</code></pre>
+<hr />
+<p>or</p>
+<hr />
+                                    </section>
+
+            </div>
+        </main>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="http://education.launchcode.org/coding-prep/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://education.launchcode.org/coding-prep/js/highlight.pack.js"></script>
+        <script type="text/javascript" src="http://education.launchcode.org/coding-prep/js/libgif.js"></script>
+
+        <script>
+            $(function() {
+                $("section>h1").wrap('<div class="page-header" />');
+
+                // Syntax highlighting
+                hljs.configure({ displayLabels: true });
+                hljs.initHighlightingOnLoad();
+            });
+        </script>
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', "UA-78748330-7", 'auto');
+            ga('send', 'pageview');
+
+        </script>
+
+    </body>
+</html>
