@@ -23,7 +23,6 @@ Let's learn about the `find` command and how to use it with different arguments 
 
 ## Exercises  
 
-Go to [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html) and work through Exercises 12, 13, and 15. These exercises will supplement what we've learned so far by added the `less`, `more`, `cat` and `exit` commands to your command line repertoire.  
-**IMPORTANT**: Note that for Windows Git Bash users, the `less` and `more` commands will not work. Only the `cat` command you learn in Exercise 13 will work from among these read-file commands.
+Go to [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html) and work through Exercises 12, 13, and 15. These exercises will supplement what we've learned so far by added the `less`, `cat`, and `exit` commands to your command line repertoire.  
 
 [Back to Command Line Lesson Menu](../)
