@@ -15,7 +15,11 @@ Find your operating system below and click the associated link to go to a site w
 
 ### For Mac:  
 
-[Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/)
+* Open a terminal window. You can use Spotlight and start typing "Terminal" to find it.
+* Type ``git install`` and press Enter.
+* You will see a pop up window with a message about XCode and Command Line Tools. Just click the "Install" button, and agree to the terms.
+* After the installation is complete, type ``exit`` in the terminal. Then select "Quit Terminal" from the main terminal menu, or press ``Command + q``.
+* Then reopen terminal and check that git is installed by entering the command ``git --version``.
 
 ### For Linux:  
 
