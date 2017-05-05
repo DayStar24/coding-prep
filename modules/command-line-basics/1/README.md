@@ -11,7 +11,10 @@ Find your operating system below and click the associated link to go to a site w
 
 ### For Windows:  
 
-[Git for Windows](https://git-for-windows.github.io/)
+* Download [Git for Windows](https://git-for-windows.github.io/).
+* Follow the installation prompts (accept the default settings at each step).
+* Open up Git Bash - this is the command line tool you will use for this module's lessons.
+    * **Note:** When opening Git Bash, right click the desktop icon and select "Run as administrator"
 
 ### For Mac:  
 
