@@ -5,7 +5,7 @@ currentMenu: modules
 
 Lesson # | Topic | Objective
 -----|-----|------------------
-1 | [Install Git & Set Objectives](1/) | Install Git (Windows users will need Git Bash for this module) and set objectives for command line lessons
+1 | [Install Git & Set Objectives](1/) | Install Git (Windows users will need Git Bash for this module) and set learning objectives for command line lessons
 2 | [Navigate Your File System](2/) | Command Line Navigation
 3 | [Alter Your File System](3/) | Create, Copy, Move, Rename and Delete Files and Directories
 4 | [The Find Command](4/) | Various ways to use the Find Command

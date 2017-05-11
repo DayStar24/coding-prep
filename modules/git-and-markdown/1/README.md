@@ -22,4 +22,32 @@ Now find Git-it in your Downloads directory, unzip the folder and run the Git-it
 
 Since you've already installed Git, you can skip the first step, "Install Git", in the first challenge, "Get Git". Go directly to the second step in that challenge, "Configure Git" and continue on from there. Work through all the challenges in the Git-it application and you'll be ready to move on to learning Markdown. Once you've learned some Markdown, you can combine that with your knowledge of Git in order to create your very own resume on GitHub!  
 
+## Learning Objectives for Git
+
+Just as with the command line module, there are many useful commands you will learn in this Git module, but some commands will be used with greater frequency in your programming career than others. Here is a list of the git commands you should focus on in this module:
+
+### Constantly Used:
+
+* `git status`
+* `git diff`
+* `git add <fileName>` and `git add .` (the latter adds all files)
+* `git commit -m "Your Commit Message Here"`
+* `git push`
+* `git pull`
+
+### Frequently Used:
+
+* `git init`
+* `git remote add origin <urlFromGitHub>`
+* `git clone <urlFromGitHub>`
+* `git merge`
+* `git fetch`
+* `git branch <branchName>` (creates a branch)
+* `git checkout <branchName` (checks out a branch)
+* `git checkout -b <branchName>` (creates a branch and checks it out)
+
+## Reminder
+
+Be sure to check out the [Resources](../../../resources/) page for more Git learning tools and cheatsheets!
+
 [Back to Git and Markdown Menu](../)

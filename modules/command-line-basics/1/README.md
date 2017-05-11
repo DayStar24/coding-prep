@@ -32,7 +32,7 @@ Find your operating system below and click the associated link to go to a site w
 
 If you need additional instructions on installing Git, please check out this [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/install-git).   
 
-## Objectives for Command Line Learning:
+## Learning Objectives for the Command Line
 
 You will learn many useful commands from the lessons in this module, but there are some you will use with greater frequency than others. So here is a list to help you prioritize which commands you should practice the most. Make sure you've mastered these commands by the end of this module:
 
@@ -46,5 +46,9 @@ You will learn many useful commands from the lessons in this module, but there a
 * `rm` and `rmdir`
 * `cat`
 * `echo $PATH`
+
+## Reminder
+
+Be sure to check out the [Resources](../../../resources/) page for more command line learning tools!
 
 [Back to Command Line Lesson Menu](../)
