@@ -3,7 +3,7 @@ template:
     # directory: ../../../../Template-Light
 
 # Base URL of the published website
-baseUrl: http://education.launchcode.org/coding-prep
+baseUrl: https://education.launchcode.org/coding-prep
 
 
 # Used to link to the GitHub project
